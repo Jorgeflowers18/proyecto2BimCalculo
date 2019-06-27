@@ -1,0 +1,63 @@
+<h3>Funciones</h3>
+		se dividen en dos variables.
+		<li> dependiente.<br>Una variable dependiente de una funcion f es aquella cuyos valores dependen de otra variable, que se llama variable independiente (x). Se representa por la letra y, aunque a veces se denota como f(x).</p>
+    <li> independiende.<br>La variable independiente de una funcion f es un valor que no depende de ninguna otra variable. Se le pueden asignar valores sin tener en cuenta otras variables. Suele representarse por la letra x.</p>
+      <h5>Ejemplo</h5>
+			<body>
+			</p>
+			<body>
+			</p><img src="https://www.universoformulas.com/imagenes/matematicas/analisis/variable-independiente.jpg"></p>
+			</p></p><img src="https://www.universoformulas.com/imagenes/matematicas/analisis/variable-independiente-grafica.jpg ">
+			<body>
+			</p>
+
+			<h3>Clasificacion de Funciones</h3>
+			</p><img src="https://profefily.com/wp-content/uploads/2018/03/Clasificaci%C3%B3n-de-funciones.png"></p>
+			<h3>Funcion polinominal</h3>
+			<li>Una funcion polinomial es una funcion en que f ( x ) es un polinomio en x .Una funcion polinomial de grado n es escrita como:<br><img src="https://www.varsitytutors.com/assets/vt-hotmath-legacy/hotmath_help/topics/polynomial-function/polynomial-function-image001.gif"></p>
+
+			<h4>Funcion polinominal Constante:f(x)=k</h4>
+			<li>Se trata de una funcion polinomica de grado . Su grafica es una recta horizontal que pasa por todos los puntos de ordenada y=k(por tanton Im( f ) = k).
+			<h5>Ejemplo</h5>
+				</p><img src="https://img.sangakoo.com/img/img/const.gif"></p>
+
+			<h4>Funcion polinominal Afin:f(x)=ax+b</h4>
+			<li>Un requisito es que sea (a no es igual 0) . Se trata de una funcion polinomica de grado 1 . Su grafica es una recta que pasa por el punto (0,b) y cuya inclinacion depende del valor de a(tambien conocido como pendiente).</p>
+      <h5>Ejemplo</h5>
+			</p><img src="https://img.sangakoo.com/img/img/afi.gif"></p>
+			<h4>Funcion polinominal cuadratica:f(x)ax^2+bx+c </h4>
+			Para obtener una funcion cuadratica es necesario que (a no es igual 0). Se trata de una funcion polinomica de segundo grado, cuya grafica es una parabola abierta hacia arriba si (a > 0), o bien hacia abajo si (a < 0) .
+      <h5>Ejemplo</h5>
+			</p><img src="https://img.sangakoo.com/img/img/qua.gif"></p>
+
+			<h4>Funciones exponenciales</h4>
+			<br>funciones exponenciales tienen la forma:f(x)=a^x;donde a>o y (a no es igual 1)<li>a = constante<li>x = exponencial (variable independiente)</p>
+			<h6>propiedades de las funciones de los  exponentes<h6>
+			</p><img src="http://elbibliote.com/resources/Temas/html/imageneshtml/633/633a.jpg"></p>
+      <h5>Ejemplo</h5>
+		  </p><img src="https://1.bp.blogspot.com/-nqAMvhMT7d0/WCkzKKcxGkI/AAAAAAAAACI/4ttv81-TA1MO9YTUbOjbhgorKI2W6VavwCLcB/s1600/ejemplo.png"></p>
+
+			<h4>Funciones logaritmicas</h4>
+			<br>Las funciones logaritmicas tienen la forma:f(x) = log a^x ; donde a  > 0; (a no es igual 1); x > 0<li>a = base<li>x = variable independiente</p>
+    	<h6>propiedades de las funciones logaritmicas <h6>
+			</p><img src="https://matemovil.com/wp-content/uploads/2014/10/Propiedades-de-logaritmos.jpg"></p>
+			<h5>Ejemplo</h5>
+		  </p><img src="https://www.aprendematematicas.org.mx/wp-content/ql-cache/quicklatex.com-5a5087a1e1f581270e3249e527790bfe_l3.svg"></p>
+
+			<h4>Limites</h4>
+			<br>Si f(x) se acerca arbitrariamente a un numero L cuando x se aproxima a c,entonces el limite de f(x) cuando x se aproxima a c es L </p><img src="https://www.victormat.es/mcs1/Tema8-LimitesYContinuidad/lim14.png"></p>
+      </p><img src="https://calculobelindapastranaequipodebetty.files.wordpress.com/2011/10/propiedades-de-los-limites.png"></p>
+			<h5>Ejemplo</h5>
+		  </p><img src="https://matemovil.com/wp-content/uploads/2018/08/l%C3%ADmites-infinitos-ejemplo-12.jpg"></p>
+
+			<h4>derivadas</h4>
+			<br>En matematicas, la derivada de una funcion, es la razon de cambio instantanea con la que cambia el valor de dicha funcion matematica, segun cambie el valor de su variable independiente.</p>
+		  </p><img src="http://matematicas.relatividad.org/derivadas.gif"></p>
+			<h5>Ejemplo</h5>
+		  </p><img src="https://ingenieriaelectronica.org/wp-content/uploads/Derivadas-de-orden-superior-Ejemplo-3.jpg"></p>
+			<h4>Regla de la division en Derivadas</h4>
+		  </p><img src="https://estudiarfisica.files.wordpress.com/2015/07/derivada-cociente.png"></p>
+		  <h4>Regla de la raiz cuadrada en Derivadas</h4>
+		  </p><img src="https://i1.wp.com/yosoytuprofe.20minutos.es/wp-content/uploads/2019/01/derivada-de-una-ra%C3%ADz-3.jpg?w=950&ssl=1"></p>
+			<h4>Regla de la funcion de una raiz  en Derivadas</h4>
+		  </p><img src="https://i2.wp.com/yosoytuprofe.20minutos.es/wp-content/uploads/2019/01/derivada-de-una-ra%C3%ADz-1.jpg?w=950&ssl=1"></p>
