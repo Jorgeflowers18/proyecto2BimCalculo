@@ -3,20 +3,15 @@ body {
   }
 h1 {
     color:#e61010;
-    font-family:times new roman;
-    font-size:75px;
-    text-align:center;
-    text-decoration:none;
-  }
-h2 {
-    color:#000000;
-    font-family:Verdana;
-    font-size:50px;
+    font-family: sans-serif;
+    font-size:60px;
     text-align:left;
     text-decoration:none;
   }
-h3 {
-    color:#000000;
+
+  
+c1{
+    color:#87e21e;
     font-family:verdana;
     font-size:50px;
     text-align:right ;
