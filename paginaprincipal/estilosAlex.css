@@ -20,7 +20,13 @@ c2{
         background-image: initial;
 }
 
-/***.bg {
-        background-image: url("calculo/calculo.jpg");
+.bg {
+        background-image: url("/img/fondo.jpg");
 }
-***/
+
+edit1{
+        color: black;
+        opacity: 0.5;
+        
+
+}
