@@ -23,30 +23,23 @@
 		$(document).ready(function () {
 			$("#boton").click(function () {
 				var num1 = $("#numero1").val();
-				var aux = num1;
-				for (aux = num1; aux <= num1 + 10; aux++) {
+				var num2 = $("#numero2").val();
+				var cadena1 = "";
+				for (aux = num1; aux <= num2; aux++) {
 					var resultado = ((4 * Math.pow(parseInt(aux), 3)) - (8 * parseInt(aux)) + 1);
-					var cadena1 = <table class="table table-bordered table-dark">
-						<thead>
-							<tr>
-								<th scope="col">Numero</th>
-								<th scope="col">Resultado</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<th scope="row">aux</th>
-								<td>resultado</td>
-							</tr>
-						</tbody>
-					</table>
-					var cadena2 = cadena2 + cadena1;
-			}
-				print (cadena2);
+					cadena1 += "<tr><td>"+aux+"</td><td>"+resultado+"</td></tr>";
+				}
+				$("#resultados tbody").html(cadena1);
 			});
-		}
+		});
 	</script>
-
+	
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#boton2").click(function () {
+			});
+		});
+	</script>
 	<title>Calculadora</title>
 </head>
 
@@ -91,17 +84,36 @@
 			<form>
 
 				<div class="form-group">
-					<label for="exampleInputEmail1">X</label>
+					<label for="exampleInputEmail1">Numero Minimo</label>
 					<input type="number" class="form-control" id="numero1" placeholder="Ingrese el numero.">
 				</div>
 
+				<div class="form-group">
+					<label for="exampleInputEmail1">Numero Maximo</label>
+					<input type="number" class="form-control" id="numero2" placeholder="Ingrese el numero.">
+				</div>
 
-				<a id="boton" href="#">Calcular</a>
+
+				<a id="boton" href="#">Calcular</a></br>
+				<a id="boton2" href="#">Calcular derivada de la funcion.</a>
 
 			</form>
 		</div>
-	</div>
 
+		<div class="col-md-4">
+			<table class="table table-bordered table-dark" id="resultados">
+						<thead>
+							<tr>
+								<th scope="col">Numero</th>
+								<th scope="col">Resultado</th>
+							</tr>
+						</thead>
+						<tbody>
+
+						</tbody>
+			</table>
+		</div>
+	</div>
 
 </body>
 
