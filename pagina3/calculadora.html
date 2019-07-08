@@ -37,7 +37,8 @@
 	<script type="text/javascript">
 		$(document).ready(function () {
 			$("#boton2").click(function () {
-				var resultado2 = math.derivative('4x^3 - 8x + 1', 'x'); 
+				var cadena2 = ""
+				var resultado2 = Math.derivative('4x^3 - 8x + 1', 'x'); 
 				cadena2 += "<tr><td>"+resultado2+ "</td></tr>";
 
 				$("#resultados2 tbody").html(cadena2);
