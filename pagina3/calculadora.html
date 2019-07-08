@@ -34,25 +34,16 @@
 		});
 	</script>
 	
-	<script type="text/javascript">
-		$(document).ready(function () {
-			$("#boton2").click(function () {
-				var cadena2 = ""
-				var resultado2 = Math.derivative('4x^3 - 8x + 1', 'x'); 
-				cadena2 += "<tr><td>"+resultado2+ "</td></tr>";
+	
 
-				$("#resultados2 tbody").html(cadena2);
-			});
-		});
-	</script>
-	<title>Calculadora</title>
+	<title>Calculadoras</title>
 </head>
 
 <body>
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Calculadora</a>
-		<a class="navbar-brand" href="#">f(x)=4x^3-8x+1 </a>
+		<a class="navbar-brand" >Calculadora</a>
+		<a class="navbar-brand" >f(x)=4x^3-8x+1 </a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -61,7 +52,7 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="../index.html">Volver a Inicio <span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="/paginaprincipal/index.html">Volver a Inicio <span class="sr-only">(current)</span></a>
 					
 				</li>
 
@@ -78,17 +69,18 @@
 
 				<div class="form-group">
 					<label for="exampleInputEmail1">Número Mínimo</label>
-					<input type="number" class="form-control" id="numero1" placeholder="Ingrese el numero.">
+					<input type="number" class="form-control" id="numero1" placeholder="Ingrese el número.">
 				</div>
 
 				<div class="form-group">
 					<label for="exampleInputEmail1">Número Máximo</label>
-					<input type="number" class="form-control" id="numero2" placeholder="Ingrese el numero.">
+					<input type="number" class="form-control" id="numero2" placeholder="Ingrese el número.">
 				</div>
 
 
 				<a id="boton" href="#">Calcular</a></br>
-				<a id="boton2" href="#">Calcular derivada de la función.</a>
+				<a id="b2" href="#">Calcular derivada de la función</a><br>
+				
 
 			</form>
 		</div>
@@ -106,9 +98,10 @@
 						</tbody>
 			</table>
 		</div>
-
+		<div id="re2"></div>
+		
 		<div class="col-md-4">
-			<table class="table table-bordered table-dark" id="resultados2">
+			<table class="table table-bordered table-dark" id="re2">
 						<thead>
 							<tr>
 								<th scope="col">Derivada</th>
@@ -122,5 +115,28 @@
 	</div>
 
 </body>
+<script type="text/javascript">
+	$(document).ready(function () {
+		$("#b2").click(function () {
+			var base = 4;
+			var poten = 3;
+			var base2 = 8;
+			var poten2 = 1;
+			var solo = 1;
+			
+			var cadena2 = "";
+			var resul1= (base*poten);
+			var resul2= (poten1-1);
+			var resul3= (base2*poten2);
+			var resul4= (poten2-1);
+			var resul5= (solo*0);
+			var resultado2 = (resul1+"^"+resul2+" - "+resul3+"^"+resul4+" + "+resul5); 
+			
+			cadena2 = "<tr><td>"+resultado2+"</tr></td>";
+			$("#re2 tbody").html(cadena2);
+			document.getElementById("re2").innerHTML=resultado2;
+		});
+	});
+</script>
 
 </html>
