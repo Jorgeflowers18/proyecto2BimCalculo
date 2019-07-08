@@ -37,7 +37,10 @@
 	<script type="text/javascript">
 		$(document).ready(function () {
 			$("#boton2").click(function () {
-				var resultado = math.derivative('4x^3 - 8x + 1', 'x') 
+				var resultado2 = math.derivative('4x^3 - 8x + 1', 'x'); 
+				cadena2 += "<tr><td>"+resultado2+ "</td></tr>";
+
+				$("#resultados2 tbody").html(cadena2);
 			});
 		});
 	</script>
@@ -95,6 +98,19 @@
 							<tr>
 								<th scope="col">Número</th>
 								<th scope="col">Resultado</th>
+							</tr>
+						</thead>
+						<tbody>
+
+						</tbody>
+			</table>
+		</div>
+
+		<div class="col-md-4">
+			<table class="table table-bordered table-dark" id="resultados2">
+						<thead>
+							<tr>
+								<th scope="col">Derivada</th>
 							</tr>
 						</thead>
 						<tbody>
