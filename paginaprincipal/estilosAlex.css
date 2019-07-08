@@ -1,5 +1,11 @@
+body{
+
+        background-image: url(/img/cafe.jpg);
+        background-size: 100%  100%;
+}
 h3 {
-        color:crimson
+        color:crimson;
+        font-family: sans-serif;
 }
 h2 { 
         color: crimson
@@ -9,7 +15,7 @@ h1{
         font-size: 50px;
 }
 c2 {
-        color: tomato
+        color: tomato;
 
 
 
@@ -21,12 +27,22 @@ c2{
 }
 
 .bg {
-        background-image: url("/img/fondo.jpg");
+        background-image: url(/img/div2.jpg);
+        background-size: 100% 100%;
+
+
 }
 
 edit1{
         color: black;
         opacity: 0.5;
         
+
+}
+p{
+        color: black;
+        font-family: sans-serif;
+
+
 
 }

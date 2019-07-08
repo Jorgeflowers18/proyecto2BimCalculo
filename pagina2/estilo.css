@@ -1,5 +1,6 @@
 body {
-    background-color:#ffffff;
+  background-image: url(/img/container.jpg);
+  background-size: 100% 100%;
   }
 h1 {
     color:tomato;
@@ -26,7 +27,7 @@ p {
 
 
 h5 {
-    color: black;
+    color: #ffffff;
     font-family:sans-serif;
     text-align: left;
     font-size: 18px;
@@ -47,10 +48,9 @@ c1{
   text-decoration:none;
 }
 
-/***h3{
-    color: rgb(255, 169, 10)(255, 187, 0)
+.bg{
+  background-color: whitesmoke;
+  
+
 
 }
-
-
-/***$("#num").val();
