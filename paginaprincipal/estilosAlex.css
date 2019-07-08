@@ -46,3 +46,11 @@ p{
 
 
 }
+h1{
+        font-size: 100px;
+
+}
+.bg2{
+        background-image: url(/img/divs.jpg);
+        
+}
